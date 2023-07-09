@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sarabun:wght@300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Sarabun";
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+  background-color: #1137ca;
+}
+
+#page1 {
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-color: #a7a7b8;
+  position: relative;
+}
+
+#page1 > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#page1 > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  padding: 0px 40px;
+}
+
+#page1 > nav > img {
+  width: 10%;
+}
+
+#right-nav > button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #0b48ed;
+  border: 1px solid #fff;
+}
+
+/* bottom page 1 */
+
+#bottom-page-1 {
+  position: absolute;
+  height: 40vh;
+  bottom: 10%;
+  left: 10%;
+  width: 40vw;
+}
+
+#bottom-page-1 > h1 {
+  font-size: 5vw;
+  font-weight: 100;
+  color: #e0e0e0;
+  line-height: 1;
+}
+
+#bottom-page1-inner {
+  position: absolute;
+  bottom: 0%;
+  height: 35%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bottom-page1-inner > button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #0b48ed;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#bottom-page1-inner > h4 {
+  font-size: 1vw;
+  color: white;
+}
+
+/* page 2 */
+
+#page2 {
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cee;
+  padding: 0vw 8vw;
+  color: #e0e0e0;
+
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+#page2 > h2 {
+  font-weight: 200;
+  margin-bottom: 1.6vw;
+}
+
+#page2 > h1 {
+  width: 75%;
+  font-size: 3.4vw;
+  font-weight: 100;
+  line-height: 1.2;
+  color: #e0e0e070;
+}
+
+/* page 3 */
+
+#page3 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+/* page 4 */
+
+#page4 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137ca;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    padding: 0vw 10vw;
+}
+
+#page4 > h3 {
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: x-large;
+    margin-bottom: 2vh;
+}
+
+#page4 > h1 {
+
+    width: 80%;
+    color: #b6b6b6b7;
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+/* page 5 */
+
+#page5 {
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+}
+
+#page5 > canvas {
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+/* page 6 */
+
+#page6 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1137ca;
+    color: #eeeeee;
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    padding: 1vh 10vw;
+}
+
+#page6 > h3 {
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-bottom: 4vh;
+}
+
+#page6 > h1 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300; 
+    color: #ffffffb0;
+ }
+
+ /* page 7 */
+
+ #page7 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137ca;
+ }
+
+ #page7 > canvas {
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+ }
+
+ /* for circle */
+
+ #page7-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    border: 0.5px solid #ffffffc0;
+ }
+
+ #page7-circle-inner {
+    height: 55%;
+    width: 55%;
+    border-radius: 50%;
+    border: 0.4px solid #fff;
+ }
+
+ /* page 8 */
+
+ #page8 {
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vw;
+    background-color: #042a9b;
+ }
+
+ #page8 > video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+ #page8-bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#page8-bottom>h1{
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 5vw;
+    font-weight: 100;
+}
+#page8-bottom>button{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #0a3cce;
+}
+
+/* page 9 */
+
+#page9 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #042a9b;
+}
+
+#left9 {
+
+    height: 100vh;
+    width: 35vw;
+    position: relative;
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+#left9 > h1 {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    transform: translateY(-50%);
+
+    color: #e0e0e0;
+}
+
+#right9 {
+    height: 100vh;
+    width: 65vw;
+    position: relative;
+}
+
+#right9-div {
+    width: 65%;
+    height: 40%;
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    border-radius: 10px;
+
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* page 10  */
+
+#page10 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #042a9b;
+}
+
+#right10 {
+    position: absolute;
+    height: 100vh;
+    width: 65vw;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right10-1 {
+    background-color: #042a9b;
+    margin: 2vh 1vw;
+}
+
+.right10-1 > h1 {
+    font-size: 37px ;
+    margin-bottom: 1vh;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.right10-1 > h3 {
+    font-size: 37px;
+    color: #ffffffcc;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+/* page 11 */
+
+#page11 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #042a9b;
+}
+
+#page11-inner {
+    width: 45%;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    color: #fff;
+    
+}
+
+#page11-inner > h1 {
+    font-size: 5vw;
+    margin-bottom: 2vw;
+}
+
+#page11-inner > h3 {
+    width: 70%;
+    font-size: 1.2vw;
+    font-weight: 100;
+
+}
+
+/* page 12 */
+
+#page12 {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #0f0f17;
+
+    color: #eeeeee;
+    padding: 7vw 7vw;
+}
+
+#page12 > h1 {
+    font-size: 5vw;
+    font-weight: 400;
+}
+
+#page12 > button {
+
+    margin-top: 5vh;
+    color: #fff;
+    background-color: #0a3cce;
+    border-radius: 35px;
+    border: none;
+
+    padding: 10px 40px;
+    font-size: 2vh;
+    font-weight: 100;
+}
+
+/* page 13 */
+
+#page13 {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #929292;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+
+}
+
+.page13-inner {
+    position: relative;
+    height: 33%;
+    width: 100vw;
+    background-color: #0f0f17;
+    color: #e0e0e0;
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 8vw;
+}
+
+.page13-inner > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vh;
+    font-weight: 100;
+    position: relative;
+    z-index: 99;
+}
+
+.page13-inner > i {
+    font-size: 4vh;
+    position: relative;
+    z-index: 99;
+}
+
+/* for effect on page 13 components  */
+
+.center14 {
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    background-color: #0a3cce;
+    left: 50%;
+
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease .3s;
+}
+
+.page13-inner:hover .center14 {
+    height: 100%;
+}
+

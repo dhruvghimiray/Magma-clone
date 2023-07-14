@@ -130,366 +130,508 @@ body {
 /* page 3 */
 
 #page3 {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
 /* page 4 */
 
 #page4 {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #1137ca;
-    
-    
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1137ca;
 
-    padding: 0vw 10vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+
+  padding: 0vw 10vw;
 }
 
 #page4 > h3 {
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: x-large;
-    margin-bottom: 2vh;
+  color: #e0e0e0;
+  font-weight: 400;
+  font-size: x-large;
+  margin-bottom: 2vh;
 }
 
 #page4 > h1 {
 
-    width: 80%;
-    color: #b6b6b6b7;
-    font-size: 60px;
-    font-weight: 200;
-    line-height: 1.2;
+  width: 80%;
+  color: #b6b6b6b7;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1.2;
 }
 
 /* page 5 */
 
 #page5 {
-    position: relative;
-    height: 100vh;
-    width: 100vh;
+  position: relative;
+  height: 100vh;
+  width: 100vh;
 }
 
 #page5 > canvas {
-    position: relative;
-    max-width: 100vw;
-    max-height: 100vh;
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 /* page 6 */
 
 #page6 {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: #1137ca;
-    color: #eeeeee;
-    
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1137ca;
+  color: #eeeeee;
 
-    padding: 1vh 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+
+  padding: 1vh 10vw;
 }
 
 #page6 > h3 {
-    font-size: 1.2vw;
-    font-weight: 600;
-    margin-bottom: 4vh;
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin-bottom: 4vh;
 }
 
 #page6 > h1 {
-    width: 100%;
-    font-size: 60px;
-    font-weight: 300; 
-    color: #ffffffb0;
- }
-
- /* page 7 */
-
- #page7 {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #1137ca;
- }
-
- #page7 > canvas {
-    position: relative;
-    max-width: 100vw;
-    max-height: 100vh;
- }
-
- /* for circle */
-
- #page7-circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
-    height: 40vh;
-    width: 40vh;
-    border-radius: 50%;
-    border: 0.5px solid #ffffffc0;
- }
-
- #page7-circle-inner {
-    height: 55%;
-    width: 55%;
-    border-radius: 50%;
-    border: 0.4px solid #fff;
- }
-
- /* page 8 */
-
- #page8 {
-    position: relative;
-    max-width: 100vw;
-    max-height: 100vw;
-    background-color: #042a9b;
- }
-
- #page8 > video {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
- #page8-bottom{
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 300; 
+  color: #ffffffb0;
 }
-#page8-bottom>h1{
-    color: #fff;
-    margin-bottom: 2vw;
-    font-size: 5vw;
-    font-weight: 100;
+
+/* page 7 */
+
+#page7 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1137ca;
 }
-#page8-bottom>button{
-    padding: 20px 30px;
-    border-radius: 50px;
-    border: none;
-    background-color: #fff;
-    color: #0a3cce;
+
+#page7 > canvas {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+/* for circle */
+
+#page7-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 50%;
+  border: 0.5px solid #ffffffc0;
+}
+
+#page7-circle-inner {
+  height: 55%;
+  width: 55%;
+  border-radius: 50%;
+  border: 0.4px solid #fff;
+}
+
+/* page 8 */
+
+#page8 {
+  position: relative;
+  max-width: 100vw;
+  height: 100vh;
+  background-color: #042a9b;
+}
+
+#page8 > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#page8-bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#page8-bottom > h1 {
+  color: #fff;
+  margin-bottom: 2vw;
+  font-size: 5vw;
+  font-weight: 100;
+}
+
+#page8-bottom > button {
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  color: #0a3cce;
 }
 
 /* page 9 */
 
 #page9 {
-    display: flex;
+  display: flex;
 
-    width: 100vw;
-    height: 100vh;
-    background-color: #042a9b;
+  width: 100vw;
+  height: 100vh;
+  background-color: #042a9b;
 }
 
 #left9 {
-
-    height: 100vh;
-    width: 35vw;
-    position: relative;
-    font-size: 2vw;
-    font-weight: 100;
+  height: 100vh;
+  width: 35vw;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 100;
 }
 
 #left9 > h1 {
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  transform: translateY(-50%);
 
-    color: #e0e0e0;
+  color: #e0e0e0;
 }
 
 #right9 {
-    height: 100vh;
-    width: 65vw;
-    position: relative;
+  height: 100vh;
+  width: 65vw;
+  position: relative;
 }
 
 #right9-div {
-    width: 65%;
-    height: 40%;
-    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+  border-radius: 10px;
+  object-fit: contain;
 
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* page 10  */
 
 #page10 {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #042a9b;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #042a9b;
 }
 
 #right10 {
-    position: absolute;
-    height: 100vh;
-    width: 65vw;
-    right: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  position: absolute;
+  height: 100vh;
+  width: 65vw;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .right10-1 {
-    background-color: #042a9b;
-    margin: 2vh 1vw;
+  background-color: #042a9b;
+  margin: 2vh 1vw;
 }
 
 .right10-1 > h1 {
-    font-size: 37px ;
-    margin-bottom: 1vh;
-    color: #ffffff;
-    font-weight: 200;
+  font-size: 37px ;
+  margin-bottom: 1vh;
+  color: #ffffff;
+  font-weight: 200;
 }
 
 .right10-1 > h3 {
-    font-size: 37px;
-    color: #ffffffcc;
-    font-weight: 100;
-    line-height: 1.3;
+  font-size: 37px;
+  color: #ffffffcc;
+  font-weight: 100;
+  line-height: 1.3;
 }
 
 /* page 11 */
 
 #page11 {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #042a9b;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #042a9b;
 }
 
 #page11-inner {
-    width: 45%;
-    position: absolute;
-    right: 5%;
-    top: 40%;
-    color: #fff;
-    
+  width: 45%;
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  color: #fff;
+
 }
 
 #page11-inner > h1 {
-    font-size: 5vw;
-    margin-bottom: 2vw;
+  font-size: 5vw;
+  margin-bottom: 2vw;
 }
 
 #page11-inner > h3 {
-    width: 70%;
-    font-size: 1.2vw;
-    font-weight: 100;
+  width: 100%;
+  font-size: 1.2vw;
+  font-weight: 100;
 
 }
 
 /* page 12 */
 
 #page12 {
-    position: relative;
-    height: 60vh;
-    width: 100vw;
-    background-color: #0f0f17;
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  background-color: #0f0f17;
 
-    color: #eeeeee;
-    padding: 7vw 7vw;
+  color: #eeeeee;
+  padding: 7vw 7vw;
 }
 
 #page12 > h1 {
-    font-size: 5vw;
-    font-weight: 400;
+  top: 50%;
+  padding-left: 25%;
+  font-size: 5vw;
+  font-weight: 400;
+  margin-top: 12vh;
 }
 
 #page12 > button {
 
-    margin-top: 5vh;
-    color: #fff;
-    background-color: #0a3cce;
-    border-radius: 35px;
-    border: none;
+  margin-top:10vh;
+  margin-left: 8vh;
+  color: #fff;
+  background-color: #0a3cce;
+  border-radius: 35px;
+  border: none;
 
-    padding: 10px 40px;
-    font-size: 2vh;
-    font-weight: 100;
+  padding: 10px 40px;
+  font-size: 2vh;
+  font-weight: 100;
 }
 
 /* page 13 */
 
 #page13 {
-    position: relative;
-    height: 60vh;
-    width: 100vw;
-    background-color: #929292;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    
-
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  background-color: #929292;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .page13-inner {
-    position: relative;
-    height: 33%;
-    width: 100vw;
-    background-color: #0f0f17;
-    color: #e0e0e0;
-   
+  position: relative;
+  height: 33%;
+  width: 100vw;
+  background-color: #0f0f17;
+  color: #e0e0e0;
+ 
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0vw 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 8vw;
 }
 
 .page13-inner > h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4vh;
-    font-weight: 100;
-    position: relative;
-    z-index: 99;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4vh;
+  font-weight: 100;
+  position: relative;
+  z-index: 99;
 }
 
 .page13-inner > i {
-    font-size: 4vh;
-    position: relative;
-    z-index: 99;
+  font-size: 4vh;
+  position: relative;
+  z-index: 99;
 }
 
 /* for effect on page 13 components  */
 
 .center14 {
-    width: 100%;
-    height: 0%;
-    position: absolute;
-    background-color: #0a3cce;
-    left: 50%;
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  background-color: #0a3cce;
+  left: 50%;
 
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: all ease .3s;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all ease .3s;
 }
 
 .page13-inner:hover .center14 {
-    height: 100%;
+  height: 100%;
 }
 
+/* Media Queries for Mobile */
+
+@media only screen and (max-width: 600px) {
+  #page1 > nav {
+    padding: 0px 20px;
+  }
+
+  #bottom-page-1 {
+    width: 80vw;
+    left: 10%;
+  }
+
+  #bottom-page-1 > h1 {
+    font-size: 8vw;
+  }
+
+  #bottom-page1-inner > h4 {
+    font-size: 3vw;
+  }
+
+  #page2 > h1 {
+    width: 100%;
+    font-size: 7vw;
+  }
+
+  #page4 > h3 {
+    font-size: large;
+  }
+
+  #page4 > h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  #page6 > h3 {
+    font-size: 3vw;
+  }
+
+  #page6 > h1 {
+    font-size: 30px;
+  }
+
+  #page8 {
+    height: 70vh;
+  }
+
+  #page8-bottom > h1 {
+    font-size: 8vw;
+  }
+
+  #page8-bottom > button {
+    padding: 10px 20px;
+    font-size: 3vw;
+  }
+
+  #page9 {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #left9  {
+    font-size: 5vw;
+    width: 70vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #right9  {
+    right: -7vw;
+    font-size: 5vw;
+    width: 70vw;
+    height: 100vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #right9-div {
+    height: 100%;
+    width: 100%;
+
+
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+  border-radius: 10px;
+  object-fit: contain;
+
+  position: absolute;
+  }
+
+  #page10 {
+    padding: 10px;
+  }
+
+  #right10 {
+    width: 95vw;
+    padding: 10px;
+  }
+
+  .right10-1 {
+    margin: 10px 0;
+  }
+
+  .right10-1 > h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .right10-1 > h3 {
+    font-size: 18px;
+  }
+
+  #page11-inner {
+    width: 90vw;
+  }
+
+  #page11-inner > h1{
+    font-size: 18px;
+  }
+
+  #page11-inner > h3{
+    font-size: 18px;
+  }
+
+  #page12 > h1 {
+    font-size: 8vw;
+  }
+
+  #page12 > button {
+    font-size: 3vw;
+  }
+
+  .page13-inner > h1 {
+    font-size: 8vw;
+  }
+
+  .page13-inner > i {
+    font-size: 8vw;
+  }
+}
